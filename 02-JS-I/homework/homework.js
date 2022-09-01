@@ -74,9 +74,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  var a = str1.lenght
-  var b = str2.lenght
-  if (a==b) {
+  if (str1.length==str2.length) {
     return true;
   }
   return false;
@@ -240,7 +238,7 @@ function deEuroAdolar(euro){
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
   var dolar = euro * 1.2
-  return dolar;
+  return dolar; 
 }
 
 
@@ -250,7 +248,21 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  
+  var a = letra.toUpperCase()
+  if (letra.length != 1) {
+    return "Dato incorrecto";
+  } else if (a == "A") {
+    return "Es vocal";
+  } else if (a == "E") {
+    return "Es vocal";
+  } else if (a == "I") {
+    return "Es vocal";
+  } else if (a == "O") {
+    return "Es vocal";
+  } else if (a == "U") {
+    return "Es vocal";
+  }
+return "Dato incorrecto"
 }
 
 
