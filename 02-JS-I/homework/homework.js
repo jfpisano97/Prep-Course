@@ -214,7 +214,7 @@ function obtenerSaludo(nombre) {
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  var area = alto * ancho + " m^2";
+  var area = alto * ancho;
   return area;
 }
 
@@ -222,7 +222,7 @@ function obtenerAreaRectangulo(alto, ancho) {
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  var per = lado * 4 + " cm"
+  var per = lado * 4;
   return per
 }
 
@@ -230,7 +230,7 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-  var area = base * altura / 2 + " m^2";
+  var area = base * altura / 2;
   return area;
 }
 
@@ -240,7 +240,7 @@ function deEuroAdolar(euro){
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
   var dolar = euro * 1.2
-  return dolar + " USD"
+  return dolar;
 }
 
 
