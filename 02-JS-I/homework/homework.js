@@ -249,6 +249,9 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   var a = letra.toUpperCase()
+if (typeof letra != "string") {
+return "Dato incorrecto";
+}   
   if (letra.length != 1) {
     return "Dato incorrecto";
   } else if (a == "A") {
