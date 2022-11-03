@@ -104,7 +104,7 @@ function deleteAbc(cadena){
   //y devuelva la versión modificada o la misma cadena, en caso de contener dichas letras.
   //Escribe tu código aquí
 
-  // ---->    return cadena.replaceAll("a","").replaceAll("b","").replaceAll("c",""); ------> se puede hacer así, con el metodo .replaceAll, que es para strings (busca todos los parametros y los reemplaza por lo que le des)
+  return cadena.replaceAll("a","").replaceAll("b","").replaceAll("c",""); //------> se puede hacer así, con el metodo .replaceAll, que es para strings (busca todos los parametros y los reemplaza por lo que le des)
   // sino hacemos un bucle que transforme el string en un array, chequee index por index y la reemplace
  
  
