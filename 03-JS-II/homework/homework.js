@@ -161,14 +161,14 @@ function esPrimo(numero) {
   if (numero < 2){
     return false
   } else if (numero === 2){
-      return true
+    return true
   }
   for (let i = 2; i < numero; i++){
     if (numero % i === 0){
       return false
     }
   }
-        return true
+  return true
 }
 
 function esVerdadero(valor){
@@ -214,7 +214,7 @@ function doWhile(numero) {
     numero = numero + 5
   } while (i < 8);
   return numero;
-  }
+}
 
 // No modificar nada debajo de esta línea
 // --------------------------------
